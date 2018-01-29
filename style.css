@@ -14,13 +14,13 @@ body {
   margin: 1% auto;
   z-index: 100;
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   background-color: rgba(100,100,100,.2);
   bottom: 10px;
 }
 
 .descWrap {
-  font-size: 1em;
+  font-size: .7em;
   text-align: center;
   width: 80%;
   padding: 5%;
