@@ -1,0 +1,42 @@
+canvas {
+  background-color: black;
+  position: fixed;
+}
+body {
+  margin: 0;
+}
+
+#show {
+  width: 100%;
+  font-size: 2em;
+  padding: 1%;
+  text-align: center;
+  margin: 1% auto;
+  z-index: 100;
+  cursor: pointer;
+  position: fixed;
+  background-color: rgba(100,100,100,.2);
+  bottom: 10px;
+}
+
+.descWrap {
+  font-size: 1em;
+  text-align: center;
+  width: 80%;
+  padding: 5%;
+  margin: 0 auto;
+}
+#block{
+  background-color: white;
+  top: 30%;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 100%;
+}
+
+@media (min-width: 900px) {
+  .descWrap {
+    font-size: 1.5em;
+  }
+}
